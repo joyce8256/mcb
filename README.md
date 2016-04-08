@@ -22,8 +22,8 @@ All tips for this installation are given for an apache server on debian jessie w
 
 * copy all the files to the web server folder. make all of these files accessible by your web server
 
-    cd mcb
-    cp -r * /var/www/cb
+    cd mcb  
+    cp -r * /var/www/cb  
     chown -R www-data:www-data /var/www/cb
 
 * create a folder ouside of any website, accessible by your web server. cp the file empty_cb.db to the folder, renaming it cb.db. Typically with apache on debian.
