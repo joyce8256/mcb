@@ -25,8 +25,24 @@ For deploying MC, you need a web server like apache or nginx with php mail insta
 
 All the administration is done by editing directly the database with an editor. my favourite is sqlitebrowser.
 
+Adding a board
+
+in the table "boards", add a line with an unused id and a name.
+
+Example
+
+id=1 name="Fred's Board"
+
 Adding a user
-Add a line in the user table
+
+in the table "users", add a line with an unused id and all informations for the user. Assign 1 to current_board and 0 to max_msg_id. Fill the email if you want notifications.
+
+Example
+id=1 name="Fred" password="myterrificpassword" email="fred@world.net" cuurent_board=1 max_msg_id=1
+
+Allow a user to access a board
+
+In the "boards_users" table, add a line with the board id and the user_id
     
 
 
