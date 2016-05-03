@@ -13,15 +13,21 @@ For deploying MC, you need a web server like apache or nginx with php mail insta
 
 * create a folder or a specific site for your corkboard on your web server.
 * obtain the code via github
+
     git clone https://github.com/joyce8256/mcb.git
+
 * create a folder ouside of any website, accessible by your web server. cp the file empty_cb.db to the folder, renaming it cb.db. Typically with apache on debian.
 
     mkdir /whereyouwant/cb/
+
     cp empty_cb.db /whereyouwant/cb/
+
     chown -R www-data:www-data /whereyouwant/cb/
 
 * edit the file cb_config.php and change db_loc with the path to the db file
+
     $db_loc="/whereyouwant/cb/cb.db";
+
 * your corkboard is installed, you can test it with user:test password:test
 
 #administration
@@ -34,7 +40,7 @@ in the table "boards", add a line with an unused id and a name.
 
 Example :
 
-id=1 name="Fred's Board"
+    id=1 name="Fred's Board"
 
 ##Adding a user
 
@@ -42,7 +48,7 @@ in the table "users", add a line with an unused id and all informations for the 
 
 Example :
 
-id=1 name="Fred" password="myterrificpassword" email="fred@world.net" cuurent_board=1 max_msg_id=1
+    id=1 name="Fred" password="myterrificpassword" email="fred@world.net" cuurent_board=1 max_msg_id=1
 
 ##Allow a user to access a board
 
