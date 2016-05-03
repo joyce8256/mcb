@@ -3,6 +3,8 @@ Minimalist Corkboard
 
 This project is a minimalist corkboard. It is developped in php with a sqlite database. It has been designed with easyness of deployment in mind.
 
+!(snap_cb.jpg)
+
 #Requirements
 
 For deploying MC, you need a web server like apache or nginx with php mail installed. On debian
@@ -46,9 +48,40 @@ in the table "users", add a line with an unused id and all informations for the 
 
 Example :
 
-    id=1 name="Fred" password="myterrificpassword" email="fred@world.net" cuurent_board=1 max_msg_id=1
+    id=1 name="Fred" password="myterrificpassword" email="fred@world.net" current_board=1 max_msg_id=1
 
 ##Allow a user to access a board
 
 In the "boards_users" table, add a line with the board id and the user_id
-    
+   
+#How to use it
+
+#Logging
+
+* Type your name and password in the login form
+* Press the "Enter" button
+
+#Reload the board
+
+* Press the "Reload" post-it
+
+#Change board
+
+* Choose the board you want in the choice list just above the "Change post-it"
+* Press the "Change" post-it 
+
+#Add a new message
+
+* Click on the board where you want your new message appears. A red pin helps you to find the good place
+* Type your message in the "new msg" text area
+* Choose the post-it type in the "bg" choice list
+* Press the "Create" post-it
+
+#Delete a message
+
+* Choose the message number in the "msg" choice list. The number of the messages are written on their postit at the upper left.
+* Press the "Delete" post-it 
+
+#Logout
+
+* Press the "Goodbye!" post-it
