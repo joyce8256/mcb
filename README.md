@@ -56,32 +56,32 @@ In the "boards_users" table, add a line with the board id and the user_id
    
 #How to use it
 
-#Logging
+##Logging
 
 * Type your name and password in the login form
 * Press the "Enter" button
 
-#Reload the board
+##Reload the board
 
 * Press the "Reload" post-it
 
-#Change board
+##Change board
 
 * Choose the board you want in the choice list just above the "Change post-it"
 * Press the "Change" post-it 
 
-#Add a new message
+##Add a new message
 
 * Click on the board where you want your new message appears. A red pin helps you to find the good place
 * Type your message in the "new msg" text area
 * Choose the post-it type in the "bg" choice list
 * Press the "Create" post-it
 
-#Delete a message
+##Delete a message
 
 * Choose the message number in the "msg" choice list. The number of the messages are written on their postit at the upper left.
 * Press the "Delete" post-it 
 
-#Logout
+##Logout
 
 * Press the "Goodbye!" post-it
