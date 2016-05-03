@@ -3,7 +3,7 @@ Minimalist Corkboard
 
 This project is a minimalist corkboard. It is developped in php with a sqlite database. It has been designed with easyness of deployment in mind.
 
-!(snap_cb.jpg)
+![Snapshot](snap_cb.jpg "Snapshot")
 
 #Requirements
 
