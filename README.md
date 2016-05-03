@@ -14,7 +14,7 @@ For deploying MC, you need a web server like apache or nginx with php mail insta
 * create a folder or a specific site for your corkboard on your web server.
 * obtain the code via github
 
-    git clone https://github.com/joyce8256/mcb.git
+        git clone https://github.com/joyce8256/mcb.git
 
 * create a folder ouside of any website, accessible by your web server. cp the file empty_cb.db to the folder, renaming it cb.db. Typically with apache on debian.
 
